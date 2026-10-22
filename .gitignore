@@ -1,0 +1,41 @@
+# Dependencias y entornos
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Entradas, derivados y resultados
+input/**
+!input/.gitkeep
+output/**
+!output/.gitkeep
+cache/**
+!cache/.gitkeep
+
+# Multimedia en cualquier ubicación
+*.wav
+*.wave
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*.wma
+*.aiff
+*.aif
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# Residuos locales
+*.log
+.DS_Store
+Thumbs.db

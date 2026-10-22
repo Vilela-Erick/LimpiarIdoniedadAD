@@ -1,0 +1,14 @@
+{
+  "name": "limpiar-audio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CLI de sondeo, preparación y transcripción de audio de limpiarAudio",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "limpiar-audio": "node src/cli.js",
+    "sample-audio": "node src/sample-audio.js",
+    "mute-test": "node src/technical-mute.js",
+    "limpiar-temporales": "node src/cleanup.js",
+    "test": "node --test"
+  }
+}
